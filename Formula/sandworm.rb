@@ -5,21 +5,21 @@
 class Sandworm < Formula
   desc "Project file concatenator for Claude AI"
   homepage "https://github.com/umwelt-studio/sandworm"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/umwelt-studio/sandworm/releases/download/v0.1.0/sandworm_0.1.0_darwin_amd64.tar.gz"
-      sha256 "154a98f11afa919531621b523da43b86f785253c26eadfbaa98492f565202608"
+      url "https://github.com/umwelt-studio/sandworm/releases/download/v0.1.1/sandworm_0.1.1_darwin_amd64.tar.gz"
+      sha256 "1655d15a14a4cdad79a76b61437eff2d9a676e787a1e8bada99499ab4451db42"
 
       def install
         bin.install "sandworm"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/umwelt-studio/sandworm/releases/download/v0.1.0/sandworm_0.1.0_darwin_arm64.tar.gz"
-      sha256 "cd771aa0b83e0d92c37c88e2650b36ebb08422aafeee85bc39805a1e7cb0dde4"
+      url "https://github.com/umwelt-studio/sandworm/releases/download/v0.1.1/sandworm_0.1.1_darwin_arm64.tar.gz"
+      sha256 "5594c4ea0fc4f5fbe3fcad6668c12ced18a5cee7cf4d6468c2afae8e3e226aa7"
 
       def install
         bin.install "sandworm"
@@ -30,8 +30,8 @@ class Sandworm < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/umwelt-studio/sandworm/releases/download/v0.1.0/sandworm_0.1.0_linux_amd64.tar.gz"
-        sha256 "8341bfb20913e9959bf8a8b2c461d87e0bde0a9cf9cebd57c7a6b9ea7e83f830"
+        url "https://github.com/umwelt-studio/sandworm/releases/download/v0.1.1/sandworm_0.1.1_linux_amd64.tar.gz"
+        sha256 "e1b768713287272772ef5c66bcd536bc5ac5c46533a2ef6810ec36ab89f6de25"
 
         def install
           bin.install "sandworm"
@@ -40,8 +40,8 @@ class Sandworm < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/umwelt-studio/sandworm/releases/download/v0.1.0/sandworm_0.1.0_linux_arm64.tar.gz"
-        sha256 "e7c035b5925a302a6ccb876f838f9da7a999a87f8800593780299817e4a07b0a"
+        url "https://github.com/umwelt-studio/sandworm/releases/download/v0.1.1/sandworm_0.1.1_linux_arm64.tar.gz"
+        sha256 "1ce2607b41010a578f5d587029f8a3ec6486a04caca36f90fa0c5fd3a0ecb939"
 
         def install
           bin.install "sandworm"
