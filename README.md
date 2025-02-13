@@ -1,6 +1,6 @@
-# Umwelt Studio Homebrew Tap
+# Holonomic - Homebrew Tap
 
-This repository contains Homebrew formulae for Umwelt Studio projects.
+This repository contains Homebrew formulae for Holonomic projects.
 
 ## Available Formulae
 
@@ -10,7 +10,7 @@ This repository contains Homebrew formulae for Umwelt Studio projects.
 
 ```bash
 # Add this tap to your Homebrew installation
-brew tap umwelt-studio/tap
+brew tap holonomic/tap
 
 # Install sandworm
 brew install sandworm
